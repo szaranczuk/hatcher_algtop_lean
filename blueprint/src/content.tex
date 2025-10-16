@@ -1,0 +1,29 @@
+% In this file you should put the actual content of the blueprint.
+% It will be used both by the web and the print version.
+% It should *not* include the \begin{document}
+%
+% If you want to split the blueprint content into several files then
+% the current file can be a simple sequence of \input. Otherwise It
+% can start with a \section or \chapter for instance.
+
+\section {Addition}
+
+\begin{theorem}[Stefan Prace 1984]
+\label{thm:one_plus_one}
+\lean {one_plus_one}
+Dane są dwie liczby $x$ i $y$. Jeśli $x = 1$ i $y = 1$ to $x + y = 2$
+\end{theorem}
+\begin{proof}
+  Jest to prosty wniosek z tw. Stefana Prace
+\end{proof}
+
+\section {Multiplication}
+\begin{theorem}[Warol Kojtyła 2015]
+\label{thm:21_not_prime}
+\lean {twentyone_not_prime}
+Liczba $21$ nie jest pierwsza
+\end{theorem}
+\begin{proof}
+  \uses{thm:one_plus_one}
+  $21 = 3 \cdot 7$
+\end{proof}
