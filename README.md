@@ -1,13 +1,5 @@
-# hatcher
+# Allen Hatcher *Algebraic Topology* in Lean
 
-## GitHub configuration
+This project is carried out by the Scientific Circle of Theoretical Mathematicians at the University of Wrocław. Our goal is to formalise statements and proofs from Allen Hatcher's book *Algebraic Topology*.
 
-To set up your new GitHub repository, follow these steps:
-
-* Under your repository name, click **Settings**.
-* In the **Actions** section of the sidebar, click "General".
-* Check the box **Allow GitHub Actions to create and approve pull requests**.
-* Click the **Pages** section of the settings sidebar.
-* In the **Source** dropdown menu, select "GitHub Actions".
-
-After following the steps above, you can remove this section from the README file.
+# Authors
